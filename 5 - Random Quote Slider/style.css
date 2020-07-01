@@ -1,0 +1,39 @@
+body{
+    background-image: url("img/floransa.jpg");
+    
+}
+#header{
+    color:black;
+    opacity: .7;
+    letter-spacing: 5px;
+}
+.title-heading{
+    color: orange;
+    letter-spacing: 10px;
+}
+.profile-photo{
+    border-radius: 50%;
+    transform: translate(0,-50%);
+}
+#box{
+    opacity: .9;
+    position: relative;
+    height: 350px;
+    
+}
+.prevBtn{
+    position: absolute;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.nextBtn{
+    position: absolute;
+    top:50%;
+    left: 100%;
+    transform: translate(-100%,-50%);
+}
+img{
+    object-fit: cover;
+    object-position: center;
+    opacity: 1;
+}
